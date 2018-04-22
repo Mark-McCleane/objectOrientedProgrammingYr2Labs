@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="lab6a/confusion/src"/>
+	<classpathentry kind="src" path="lab6a/lab6aq1.java"/>
+	<classpathentry kind="src" path="lab6aq2"/>
+	<classpathentry kind="src" path="lab6aq3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="lab6a/confusion/bin"/>
+</classpath>

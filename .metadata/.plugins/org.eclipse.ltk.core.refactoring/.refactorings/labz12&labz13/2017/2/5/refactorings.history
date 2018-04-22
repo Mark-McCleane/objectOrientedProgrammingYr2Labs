@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;lab13b&apos; to &apos;labz13b&apos;&#x0D;&#x0A;- Original project: &apos;labz13&apos;&#x0D;&#x0A;- Original element: &apos;labz13/src/lab13b&apos;&#x0D;&#x0A;- Renamed element: &apos;labz13/src/labz13b&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;lab13b&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;lab13b" name="labz13b" qualified="false" references="true" stamp="1485952530928" textual="false" version="1.0"/>
+</session>

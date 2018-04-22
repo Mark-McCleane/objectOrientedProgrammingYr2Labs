@@ -1,0 +1,76 @@
+package labz13c;
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontPosture;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class Flags extends Application
+{
+	public void start(Stage primaryStage) 
+	{
+		GridPane gpane = new GridPane();
+	    gpane.setAlignment(Pos.CENTER);
+	    gpane.setHgap(10);
+	    gpane.setVgap(10);
+	    gpane.setPadding(new Insets(25, 25, 25, 25));
+		   
+		GridPane grid = new GridPane();
+		
+		Image image1 = new Image("file:images/ireland.png");     // Load image ireland
+		   ImageView ImageView1 = new ImageView(image1);
+		   pane.getChildren().add(ImageView1);
+		   grid.add(ImageView1, 0, 1);
+		   
+		   Image image2 = new Image("file:images/French_Flag.png");		//load image fre flag
+		   ImageView imageView2 = new ImageView(image2);             
+		   pane.getChildren().add(imageView2);
+		   grid.add(ImageView1, 0, 2);
+		
+		   Image image3 = new Image("file:images/eu.png");
+		   ImageView imageView3 = new ImageView(image3);
+		   pane.getChildren().add(imageView3);
+		   grid.add(ImageView1, 1, 1);
+		   
+		   Image image4= new Image("file:images/USAFlag.png");
+		   ImageView imageView4 = new ImageView(image4);
+		   pane.getChildren().add(imageView4);
+		   grid.add(ImageView1, 1, 2);
+		   
+		   /*ImageView1.setFitHeight(100);                 
+		   ImageView1.setFitWidth(100); 
+		   
+		   imageView2.setFitHeight(100);                 
+		   imageView2.setFitWidth(100);
+		   imageView3.setFitHeight(100);                 
+		   imageView3.setFitWidth(100);
+		   imageView3.setX(200);
+		   imageView3.setY(200);
+		   
+		   imageView4.setFitHeight(100);                 
+		   imageView4.setFitWidth(100);*/
+		   // Create a scene and place it in the stage
+		   
+		   Scene scene = new Scene(pane);
+		   primaryStage.setTitle("ShowImage"); // Set the stage title
+		   primaryStage.setScene(scene);       // Place scene in stage
+		   primaryStage.show();
+    }
+   public static void main(String[] args) 
+    {
+		Application.launch(args);
+	}
+
+}

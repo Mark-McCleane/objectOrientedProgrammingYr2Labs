@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;labz14/src/Streams&apos;&#x0D;&#x0A;- Original project: &apos;labz14&apos;&#x0D;&#x0A;- Destination element: &apos;labz14/src/Streams&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     TestFileStreamAsChars.java&#x0D;&#x0A;     TestFileStream.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;Streams" element1="/src&lt;{TestFileStreamAsChars.java" element2="/src&lt;{TestFileStream.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1490177602504" units="2" version="1.0"/>
+</session>

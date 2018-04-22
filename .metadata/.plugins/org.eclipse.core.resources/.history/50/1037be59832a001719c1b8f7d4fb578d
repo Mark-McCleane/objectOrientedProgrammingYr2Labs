@@ -1,0 +1,23 @@
+package ANimations;
+import java.io.*;
+/*
+ * Author: Mark McCleane
+ * Date:26/04/2017
+ * Purpose:	build a text editor
+ * 
+ */
+
+public class MouseDraw {
+{
+	try (
+			// Create an input stream for the file
+			FileInputStream input = new FileInputStream("text.dat");)
+		{
+			// Read values from the file
+			System.out.println("Reading.");
+			int value;
+			while ((value = input.read()) != -1)
+				System.out.print(value + " ");
+		}
+}
+}

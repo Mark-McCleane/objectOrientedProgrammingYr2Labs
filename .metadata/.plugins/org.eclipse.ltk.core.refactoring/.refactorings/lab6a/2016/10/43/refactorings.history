@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;lab6/src&apos;&#x0D;&#x0A;- Original project: &apos;lab6a&apos;&#x0D;&#x0A;- Destination element: &apos;lab6/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ThermTest.java&#x0D;&#x0A;     Thermometer.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=lab6/src" element1="/src&lt;{ThermTest.java" element2="/src&lt;{Thermometer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1477473279165" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+G:\Object-Oriented Programming\.metadata\.plugins\org.eclipse.jdt.core
+3010713937.index
+1968947691.index
+709358428.index
+2380131432.index
+4208647422.index
+2642841289.index
+2095943104.index
+2606080199.index
+2620941534.index
+3946796104.index
+2002080051.index
+39645565.index
+1674808644.index
+493161178.index
+3738582126.index
+478058226.index
+4256635111.index
+199933270.index
+2326800497.index
+3964833873.index
+87111012.index
+1205824980.index
